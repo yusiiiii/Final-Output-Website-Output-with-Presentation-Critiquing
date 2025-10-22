@@ -1,0 +1,12 @@
+FinalProject_YusiJuanMiguel/
+│
+├─ index.html
+├─ page2.html
+├─ terms.html
+├─ signup.html
+├─ /css/
+│   └─ style.css
+└─ /assets/
+    ├─ images/
+    ├─ icons/
+    └─ fonts/

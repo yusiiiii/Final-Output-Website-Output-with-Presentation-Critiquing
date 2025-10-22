@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+<header class="header">
+  <a href="page2.html">
+    <img src="assets/logo1.png" alt="Logo" class="logo">
+  </a>
+</header>
+
+
+    <main class="main">
+      <h1 class="welcome">WELCOME</h1>
+
+      <form class="form" action="page2.html" method="GET">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit" class="submit-btn">Enter</button>
+
+<p class="link"><a href="reset-password.html">Forget your Password?</a></p>
+        <p class="link"><a href="signup.html">Don’t have an account</a></p>
+      </form>
+
+      <h3 class="login-options">Login Options</h3>
+      <div class="social-login">
+        <button type="button" class="google" onclick="window.open('https://accounts.google.com/', '_blank')">G</button>
+        <button type="button" class="microsoft" onclick="window.open('https://login.live.com/', '_blank')">M</button>
+        <button type="button" class="apple" onclick="window.open('https://appleid.apple.com/sign-in', '_blank')">A</button>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <a href="terms.html" target="_blank">Terms of Service</a> | &copy; Juan Miguel Yusi
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
